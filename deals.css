@@ -1,43 +1,38 @@
 .ncards-container {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    
-
-
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-
-.ncards{
-border: 1px solid tomato;
-width: 250px;
-padding: 15px;
-border-radius: 8px;
-transition: scale ease 0.5s;
-
+.ncards {
+  border: 1px solid tomato;
+  width: 250px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: scale ease 0.5s;
 }
 
 .ncards:hover {
-    scale: 1.07;
-
+  scale: 1.07;
 }
-.ncards-header{
-    display: flex;   
-    align-items: center;
+.ncards-header {
+  display: flex;
+  align-items: center;
+  color: blue;
 }
 
-span{
-    border: 1px solid tomato;
-    width: 45px;
-    height: 45px;
+span {
+  border: 1px solid tomato;
+  width: 45px;
+  height: 45px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-right: 10px;
-    color: tomato;
-    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: tomato;
+  font-size: 25px;
 }
